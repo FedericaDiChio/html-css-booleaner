@@ -1,0 +1,25 @@
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/* header logo */
+#pic {
+    background-image: url("../img/pattern.png");
+    height: 150px;
+    background-size: contain;
+}
+
+#logo {
+    width: 200px;
+    height: 200px;
+}
+
+/* credenziali autore */
+#author {
+    color:#6495ED;
+}
+
+#date {
+    font-size: 10px;
+}
