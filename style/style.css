@@ -1,9 +1,9 @@
 .container {
-    width: 1000px;
+    width: 1100px;
     margin: 0 auto;
 }
 
-/* header logo */
+/* header*/
 #pic {
     background-image: url("../img/pattern.png");
     height: 150px;
@@ -18,8 +18,34 @@
 /* credenziali autore */
 #author {
     color:#6495ED;
+    font-weight: bold;
 }
 
 #date {
     font-size: 10px;
+    color: #A9A9A9;
+}
+
+/* corpo centrale */
+.caption {
+    font-size: 10px;
+   
+}
+
+.main-text 
+    { background-color: #FF7F50;
+
+}
+
+.table {
+    background-color: #6495ED;
+}
+
+.table-head {
+    color: white;
+    background-color: blue;
+}
+
+.others {
+    color:#A9A9A9;
 }
