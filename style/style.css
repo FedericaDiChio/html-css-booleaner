@@ -46,6 +46,7 @@
 }
 
 .table-head {
+    text-align: left;
     color: white;
     background-color:#0000FF;
 }
