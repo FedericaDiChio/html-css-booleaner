@@ -1,13 +1,15 @@
 .container {
-    width: 1100px;
+    height: 80%;
+    width: 70%;
     margin: 0 auto;
 }
 
 /* header*/
-#pic {
+.header-pic {
+    background-color: #6495ED;
     background-image: url("../img/pattern.png");
     height: 150px;
-    background-size: contain;
+    background-size: 40%;
 }
 
 #logo {
@@ -16,17 +18,19 @@
 }
 
 /* credenziali autore */
-#author {
-    color:#6495ED;
-    font-weight: bold;
-}
+
 
 .info {
     color: #A9A9A9;
     font-weight: bold;
 }
 
-#date {
+.author {
+    color:#6495ED;
+    
+}
+
+.date {
     font-size: 10px;
 }
 
@@ -41,6 +45,9 @@
 
 }
 
+table {
+    border-collapse: collapse;
+}
 .dispari {
     background-color: #6495ED;
 }
@@ -68,5 +75,7 @@
 
 .titolo-link {
     color: white;
-
+    padding-left: 10px;
+    padding-top: 5px;
+    
 }
