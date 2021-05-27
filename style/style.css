@@ -3,8 +3,8 @@
     margin: 0 auto;
 }
 
-/* header*/
-.header-pic {
+/* header immagine e logo*/
+.header-img {
     background-color: #6495ED;
     background-image: url("../img/pattern.png");
     height: 150px;
@@ -14,6 +14,8 @@
 #logo {
     width: 200px;
     height: 200px;
+    padding: 10px;
+    
 }
 
 /* credenziali autore */
@@ -29,18 +31,12 @@
     
 }
 
-.measurement {
+ .font-small {
     font-size: 10px;
    
 }
 
 /* corpo centrale */
-
-.highlighted 
-    { background-color: #ffff00;
-
-}
-
 
 table {
     border-collapse: collapse;
@@ -63,11 +59,12 @@ table {
 }
 
 
-.esterno {
+.follow-link {
     height: 100px;
     background-size: contain;
     background-repeat: no-repeat;
 }
+
 .link-img1 {
     background-image: url("../img/monitor.jpg");
    
@@ -78,7 +75,7 @@ table {
     
 }
 
-.titolo-link {
+.link-title {
     color: white;
     padding-left: 10px;
     padding-top: 5px;
